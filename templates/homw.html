@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit-Downloads</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/home.css')}}">
+    <script src="https://kit.fontawesome.com/0cd5359d53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% block body %}
+    <div class="nav-bar">
+        
+           <a href="/flim" class="flim"><i class="fas fa-film" ></i></a>
+        
+            <a href="/game" class="game"><i class="fas fa-gamepad"></i></a>
+        
+            <a href="/mods" class="mods"><i class="fab fa-app-store-ios"></i></a>
+
+            <a href="/music" class="music"><i class="fab fa-instagram"></i></a>
+        
+    </div>
+    <div class="danger">
+        <p>under development </p>
+    </div>
+    <div class="hub">MK-HUB</div>
+    <div class="basicinfo">Everything here is free for you. You can download any app  music,movies,game,etc. from here. We had given best online
+        movie streaming website also in flim page <br>Founder <br>     -Mohit khyalia
+    </div>
+    <div class="contact">contact us <br>Mail: Mohitkhyaliayt@gmail.com  <br>
+        
+    </div>
+    {% endblock %}
+</body>
+</html>

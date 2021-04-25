@@ -1,0 +1,284 @@
+body{
+    background-color: lightsteelblue
+}
+.nav-bar{
+    background-color: teal;
+    height: 40px;
+    position: 
+    float: left;
+    width: 95%;
+    padding-left: 20px;
+    padding-top: 20px; 
+    text-align: left;
+    margin-left:0.2%; 
+    border-radius: 9px;
+}
+
+.music{
+    margin-left: 40px;
+    color: black;
+    font-size: 30px;
+}
+.flim{
+    margin-left: 40px;
+    color: black;
+    font-size: 30px;
+}
+
+.movei-ap{
+   
+    background-color: lightskyblue;
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.movei-app{
+    margin-top: 10px;
+    background-color: lightskyblue;
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+.movei-web{
+    background-color: rgb(91, 136, 163);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 30px;
+}
+.fuck{
+    margin-top: 35px;
+    font-size: 20px;
+    background: cyan;
+    border-radius: 18px;
+    padding-top: 13%;
+    padding-left: 10%;
+    height: 430px;
+    
+}
+
+
+
+.game{
+    margin-left: 40px;
+    color: black;
+    font-size: 30px;
+}
+
+.mods{
+    margin-left: 40px;
+    color: black;
+    font-size: 30px;
+}
+
+.spotify-dl{
+   
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+.lr-dl{
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+.movie-dl{
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+.netflix-dl{
+    margin-left: 38%;
+    font-size: 50px;
+}
+
+.minecraft-dl{
+    margin-left: 28%;
+    font-size: 50px;
+}
+
+.angry-dl{
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+.trafic-dl{
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+.movei-box{
+    background-color: lightskyblue;
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.lightroom{
+    background-color: rgb(49, 41, 122);
+    height: 133px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.angry{
+    background-color: rgb(70, 91, 184);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+
+
+.spotify-box{
+    background-color: lightgreen;
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.danger p{
+    margin-top: 4px;
+    padding-top: 1px;
+    padding-left: 14px;
+    font-size: 22px;
+}
+
+.danger { 
+    height: 30px;
+    background-color: #ffdddd;
+    border-left: 1.5vmin solid #f44336;
+    /*padding: 1vmin 2vmin vmin ;*/
+    color:red;
+}
+
+.netflix{
+    background-color: rgb(255, 65, 65);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.traffic-rider{
+    background-color: rgb(175, 255, 101);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.minecraf{
+    background-color: rgb(99, 190, 99);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px; 
+}
+
+.minecraft{
+    background-color: rgb(99, 190, 99);
+    height: 123px;
+    width: 94.8%; 
+    padding-left: 20px;
+    font-size: 22px;
+    margin-top:12px; 
+}
+
+.basicinfo{
+    margin-top:12px;
+    padding-top:5px;
+    background-color: lightcoral;
+    height: 253px;
+    width: 94.8%; 
+    padding-left:12px;
+    font-size: 25px;
+}
+
+.lr-logo{
+    height: 90px;
+    border-radius: 18px;
+    margin-top: 12px;
+}
+
+.nm{
+    padding-left: 5px;
+    border: none;
+    border-radius: 8px;
+    height: 29px;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-right: 20%;
+}
+
+
+.contact{
+    
+    margin-top:  55px;
+    background-color: lightslategrey;
+    height: 140px;
+    width: 96%; 
+    padding-left: 5px;
+    font-size: 30px;
+}
+.mods_app{
+    margin-top:0px ;
+    background-color: lightgray;
+    margin-left:2%;
+    height: 530px;
+    width: 97%; 
+    
+}
+
+.check1{
+    margin-top: 9%;
+    margin-right:62%;
+    
+}
+.check2{
+    margin-top: 9%;
+        margin-right:62%;
+    margin-left: 6%; 
+}
+
+
+.btn-sub{
+    background-color: #40C9B9;
+    border: none;
+    font-size: 20px;
+    border-radius: 13px;
+    margin-left: 40%;
+    margin-top: 25%;
+    
+    
+}
+
+.ha{
+    margin-top: 9%;
+    margin-left:10%;
+    border: non;
+    
+    font-size: 14px;
+}
+
+.hub{
+    margin-top: 12px;
+    margin-left: 2%;
+    color: whitesmoke;
+    padding-left: 20% ;
+    padding-top: 49px ;
+    font-size: 55px;
+    background-color: black;
+    height: 130px;
+    border-radius: 6px;
+    border: solid white;
+    width: 74%;
+}

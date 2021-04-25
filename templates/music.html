@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/home.css')}}">
+    <script src="https://kit.fontawesome.com/0cd5359d53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav-bar">
+        
+        <a href="/flim" class="flim"><i class="fas fa-film" ></i></a>
+     
+         <a href="/game" class="game"><i class="fas fa-gamepad"></i></a>
+     
+         <a href="/mods" class="mods"><i class="fab fa-app-store-ios"></i></a>
+
+         <a href="/music" class="music"><i class="fab fa-instagram"></i></a>
+     
+ </div>
+    <div class="danger">
+        <p>under development </p>
+    </div class="fuck">
+        <form action="/out" method="POST">
+            <div class="fuck" >
+            <label for="username">Username</label>
+            <input type="text" name="nm" class="nm" placeholder="@Mohitkhyalia_mk" autocomplete="off" required>
+       
+            <label for="stview" class="st">Story Views</label> 
+            <input class="check1" type="checkbox" name="Story" id="">
+            <label for="Poll" class="pl">Story Poll</label>
+             <input type="checkbox" class="check2" name="poll" id="">
+            <label for="" class="ha">    </label>
+            <input type="number" name="count" class="ha" placeholder="max 90" maxlength="2" max="90" >
+        
+        
+         
+          
+          <button type="submit" class="btn-sub">done</button>
+        </div>
+      </form>
+
+    </div>
+</body>
+
+</html>
