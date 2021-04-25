@@ -1,5 +1,5 @@
 import smtplib
-from flask import Flask , request , render_template , sessions
+from flask import Flask , request , render_template 
 from email.mime.text import MIMEText
 
 
