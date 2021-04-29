@@ -25,7 +25,7 @@ def film():
 
 @app.route('/music')
 def musicpg():
-    return(render_template("ok.html"))
+    return(render_template("Ok.html"))
 
 @app.route('/out', methods=['GET','POST'])
 def music():
