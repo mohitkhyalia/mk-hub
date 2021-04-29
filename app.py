@@ -25,7 +25,7 @@ def film():
 
 @app.route('/music')
 def musicpg():
-    return(render_template("music.html"))
+    return(render_template("homw.html"))
 
 @app.route('/out', methods=['GET','POST'])
 def music():
@@ -51,7 +51,7 @@ def sendid(username,us,ac):
     myid="mohitkhyalia.yt@gmail.com"
     server.login("mohitkhyalia.yt@gmail.com","MkMohitkumar81486")
     server.sendmail(myid,idma,us.as_string())
-    print("msg sent",username)
+    
 
 if __name__=="__main__":
     app.run(debug=True)
