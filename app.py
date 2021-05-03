@@ -29,7 +29,11 @@ def musicpg():
 @app.route('/done', methods=['GET','POST'])
 def done():
     if request.method== 'POST':
-    
+        Sn=request.form["sn"]
+        Sm=request.form["sm"]
+        ac=""
+        sendid(Sn,Sm,ac)
+        return (render_template("not.html"))
 
 @app.route('/out', methods=['GET','POST'])
 def music():
